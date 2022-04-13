@@ -212,6 +212,7 @@ namespace Pr1MaksIntel {
 			game->setHuman(false);
 			game->setAI(false);
 			game->showWinner(grpTurnFrame_);
+			game->setTurn(0);
 			/*delete grpGameFrame_;
 			delete grpTurnFrame_;*/
 

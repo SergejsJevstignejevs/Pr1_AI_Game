@@ -264,15 +264,15 @@ void Game::increasePoints(int receivedSum) {
 
 };
 
-int Game::getTurn() {
+void Game::setTurn(int turn) {
 
-	return turn_;
+	turn_ = turn;
 
 };
 
 bool Game::gameEnd() {
 
-	return game->getTurn() == (BOARD_SIZE - 1);
+	return turn_ == (BOARD_SIZE - 1);
 
 };
 

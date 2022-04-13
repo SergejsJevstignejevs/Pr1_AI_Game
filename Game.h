@@ -51,7 +51,7 @@ public:
 
 	void calculate(); // calculate players choise sum and incease points
 	void increasePoints(int numericVal); // increase players point after turn
-	int getTurn(); // get current turn
+	void setTurn(int turn); // get current turn
 
 	bool gameEnd(); // check turn == BOARD_SIZE - 1, and that says about the end of the game
 
